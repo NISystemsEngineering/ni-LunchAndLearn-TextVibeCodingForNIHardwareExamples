@@ -1,0 +1,5 @@
+<Configuration>
+  <Target name="NI-cRIO-9045-01CEEDF1">
+    <EnableDebuggingForAllVIs>0</EnableDebuggingForAllVIs>
+  </Target>
+</Configuration>
