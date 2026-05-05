@@ -1,0 +1,33 @@
+# ============================================================
+# NI Multi-Instrument Controller – Python dependencies
+# ============================================================
+# Install with:
+#   pip install -r requirements.txt
+#
+# NI driver bindings require the corresponding NI instrument
+# driver (NI-SCOPE, NI-FGEN) to be installed separately from
+# ni.com.  The Python packages below are thin wrappers around
+# those C-level drivers.
+#
+# On Windows, install the NI driver suite first:
+#   https://www.ni.com/en/support/downloads/drivers.html
+# ============================================================
+
+# ── NI instrument driver bindings ──────────────────────────
+niscope>=0.9.0          # NI-SCOPE Python bindings
+nifgen>=0.9.0           # NI-FGEN Python bindings
+
+# ── Data / TDMS ────────────────────────────────────────────
+nptdms>=1.5.0           # TDMS file read/write
+numpy>=1.24.0           # Numeric arrays
+
+# ── Plotting ───────────────────────────────────────────────
+matplotlib>=3.7.0       # Embedded plots (TkAgg backend)
+
+# ── GUI (tkinter is part of the Python standard library) ───
+# tkinter ships with CPython – no pip install required.
+# On Ubuntu/Debian run:  sudo apt-get install python3-tk
+
+# ── Optional: VISA backend for instrument discovery ────────
+# pyvisa>=1.13.0        # Uncomment if using VISA resource manager
+# pyvisa-py>=0.7.0      # Pure-Python VISA; alternative to NI-VISA
