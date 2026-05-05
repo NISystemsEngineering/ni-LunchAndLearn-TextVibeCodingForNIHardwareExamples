@@ -1,0 +1,5 @@
+niscope>=0.9.0
+nitclk>=0.1.0
+nirfsg>=0.9.0
+numpy>=1.24.0
+matplotlib>=3.7.0
