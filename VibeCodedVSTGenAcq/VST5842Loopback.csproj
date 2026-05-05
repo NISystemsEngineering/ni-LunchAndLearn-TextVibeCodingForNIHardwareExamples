@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>NationalInstruments.Examples.VST5842Loopback</RootNamespace>
+    <AssemblyName>VST5842Loopback</AssemblyName>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <NoWarn>CA1416</NoWarn>
+  </PropertyGroup>
+
+  <!--
+    NI-RFSG and RFmx assemblies are installed by the NI driver packages into the GAC.
+    Explicit HintPaths are required because the .NET SDK does not resolve the
+    classic .NET Framework GAC automatically.
+  -->
+
+  <!-- NI-RFSG driver (generation) -->
+  <ItemGroup>
+    <Reference Include="Ivi.Driver">
+      <HintPath>C:\Program Files\National Instruments\InstrumentStudio\Ivi.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="NationalInstruments.Common">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\NationalInstruments.Common\v4.0_19.1.40.49152__dc6ad606294fc298\NationalInstruments.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="NationalInstruments.ModularInstruments.Common">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\NationalInstruments.ModularInstruments.Common\v4.0_26.3.45.4__4febd62461bf11a4\NationalInstruments.ModularInstruments.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="NationalInstruments.ModularInstruments.ModularInstrumentsSystem">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\NationalInstruments.ModularInstruments.ModularInstrumentsSystem\v4.0_26.3.45.4__4febd62461bf11a4\NationalInstruments.ModularInstruments.ModularInstrumentsSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="NationalInstruments.ModularInstruments.NIRfsg.Fx45">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\NationalInstruments.ModularInstruments.NIRfsg.Fx45\v4.0_24.5.0.49421__4febd62461bf11a4\NationalInstruments.ModularInstruments.NIRfsg.Fx45.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <!-- RFmx SpecAn (acquisition) -->
+  <ItemGroup>
+    <Reference Include="NationalInstruments.RFmx.InstrMX.Fx40">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\NationalInstruments.RFmx.InstrMX.Fx40\v4.0_26.3.0.49278__dc6ad606294fc298\NationalInstruments.RFmx.InstrMX.Fx40.dll</HintPath>
+    </Reference>
+    <Reference Include="NationalInstruments.RFmx.SpecAnMX.Fx40">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\NationalInstruments.RFmx.SpecAnMX.Fx40\v4.0_26.3.0.49278__dc6ad606294fc298\NationalInstruments.RFmx.SpecAnMX.Fx40.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

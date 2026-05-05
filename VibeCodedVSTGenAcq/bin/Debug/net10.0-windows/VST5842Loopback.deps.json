@@ -1,0 +1,136 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "VST5842Loopback/1.0.0": {
+        "dependencies": {
+          "Ivi.Driver": "1.4.0.0",
+          "NationalInstruments.Common": "19.1.40.49152",
+          "NationalInstruments.ModularInstruments.Common": "26.3.45.4",
+          "NationalInstruments.ModularInstruments.ModularInstrumentsSystem": "26.3.45.4",
+          "NationalInstruments.ModularInstruments.NIRfsg.Fx45": "24.5.0.49421",
+          "NationalInstruments.RFmx.InstrMX.Fx40": "26.3.0.49278",
+          "NationalInstruments.RFmx.SpecAnMX.Fx40": "26.3.0.49278"
+        },
+        "runtime": {
+          "VST5842Loopback.dll": {}
+        }
+      },
+      "Ivi.Driver/1.4.0.0": {
+        "runtime": {
+          "Ivi.Driver.dll": {
+            "assemblyVersion": "1.4.0.0",
+            "fileVersion": "1.4.1621.0"
+          }
+        }
+      },
+      "NationalInstruments.Common/19.1.40.49152": {
+        "runtime": {
+          "NationalInstruments.Common.dll": {
+            "assemblyVersion": "19.1.40.49152",
+            "fileVersion": "19.1.40.49152"
+          }
+        }
+      },
+      "NationalInstruments.ModularInstruments.Common/26.3.45.4": {
+        "runtime": {
+          "NationalInstruments.ModularInstruments.Common.dll": {
+            "assemblyVersion": "26.3.45.4",
+            "fileVersion": "26.3.45.4"
+          }
+        }
+      },
+      "NationalInstruments.ModularInstruments.ModularInstrumentsSystem/26.3.45.4": {
+        "runtime": {
+          "NationalInstruments.ModularInstruments.ModularInstrumentsSystem.dll": {
+            "assemblyVersion": "26.3.45.4",
+            "fileVersion": "26.3.45.4"
+          }
+        }
+      },
+      "NationalInstruments.ModularInstruments.NIRfsg.Fx45/24.5.0.49421": {
+        "runtime": {
+          "NationalInstruments.ModularInstruments.NIRfsg.Fx45.dll": {
+            "assemblyVersion": "24.5.0.49421",
+            "fileVersion": "24.5.0.49421"
+          }
+        }
+      },
+      "NationalInstruments.RFmx.InstrMX.Fx40/26.3.0.49278": {
+        "runtime": {
+          "NationalInstruments.RFmx.InstrMX.Fx40.dll": {
+            "assemblyVersion": "26.3.0.49278",
+            "fileVersion": "26.3.0.49278"
+          }
+        }
+      },
+      "NationalInstruments.RFmx.SpecAnMX.Fx40/26.3.0.49278": {
+        "runtime": {
+          "NationalInstruments.RFmx.SpecAnMX.Fx40.dll": {
+            "assemblyVersion": "26.3.0.49278",
+            "fileVersion": "26.3.0.49278"
+          }
+        }
+      },
+      "Ivi.ConfigServer.Interop/1.6.0.0": {
+        "runtime": {
+          "Ivi.ConfigServer.Interop.dll": {
+            "assemblyVersion": "1.6.0.0",
+            "fileVersion": "1.6.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VST5842Loopback/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ivi.Driver/1.4.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NationalInstruments.Common/19.1.40.49152": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NationalInstruments.ModularInstruments.Common/26.3.45.4": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NationalInstruments.ModularInstruments.ModularInstrumentsSystem/26.3.45.4": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NationalInstruments.ModularInstruments.NIRfsg.Fx45/24.5.0.49421": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NationalInstruments.RFmx.InstrMX.Fx40/26.3.0.49278": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NationalInstruments.RFmx.SpecAnMX.Fx40/26.3.0.49278": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ivi.ConfigServer.Interop/1.6.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
